@@ -1,7 +1,6 @@
 package com.example.ticketparser;
 
 public class Tickets {
-    // поля класса
     public String origin;
     public String origin_name;
     public String destination;
@@ -14,10 +13,6 @@ public class Tickets {
     public String stops;
     public String price;
 
-    // геттеры и сеттеры
-    // Предположим, что они уже определены, как вы описали
-
-    // toString() метод для красивого вывода объекта в консоль
     @Override
     public String toString() {
         return "Ticket{" +

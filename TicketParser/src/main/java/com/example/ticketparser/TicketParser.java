@@ -4,7 +4,7 @@ import java.util.List;
 
 public class TicketParser {
     public static void main(String[] args) {
-        List<Tickets> tickets = JsonReader.readTickets("src/main/resources/tickets.json"); // Укажите правильный путь к файлу JSON
+        List<Tickets> tickets = JsonReader.readTickets("src/main/resources/tickets.json");
 
         if (tickets != null) {
             for (Tickets ticket : tickets) {
